@@ -1,0 +1,4 @@
+[
+  {"user": "What was the ROI of TikTok campaigns?", "sql": "SELECT (SUM(actual) - SUM(budget)) / SUM(budget) FROM marketing_budget WHERE channel='TikTok'", "answer": "The ROI for TikTok campaigns was 15%."},
+  {"user": "Show me the budget variance by brand.", "sql": "SELECT brand, SUM(budget - actual) FROM marketing_budget GROUP BY brand", "answer": "Brand X has the highest positive variance..."}
+]

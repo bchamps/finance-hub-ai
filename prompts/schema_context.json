@@ -1,0 +1,6 @@
+{
+  "tables": [
+    {"name": "marketing_budget", "columns": ["brand", "channel", "budget", "actual"]},
+    {"name": "p_l_bridge", "columns": ["line_item", "value", "delta"]}
+  ]
+}
